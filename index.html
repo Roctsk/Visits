@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Піца Хаус - Доставка Піци</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Піца Хаус</div>
+            <ul>
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#order">Замовлення</a></li>
+                <li><a href="#delivery">Доставка</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Добро пожаловать в Піца Хаус!</h1>
+        <p>Ваш ідеальний партнер для вечерніх солодощів та веселої компанії.</p>
+        <button class="cta-button">Замовити пиццу</button>
+    </section>
+
+    <section id="menu">
+        <h2>Наше меню</h2>
+        <div class="pizza-container">
+            <div class="pizza">
+                <!-- Зображення піци -->
+                <img src="pizza.png" alt="Піца" class="pizza-image">
+            </div>
+        </div>
+        <ul class="menu-list">
+            <li><h3>Базова пицца</h3><p>50 гривень</p></li>
+            <li><h3>Піцца з м'ясом</h3><p>70 гривень</p></li>
+            <li><h3>Піцца з рибою</h3><p>80 гривень</p></li>
+            <li><h3>Вегетаріанська пицца</h3><p>60 гривень</p></li>
+        </ul>
+    </section>
+
+    <section id="order">
+        <h2>Онлайн-замовлення</h2>
+        <form>
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" required>
+
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" required>
+
+            <label for="address">Адреса доставки:</label>
+            <input type="text" id="address" required>
+
+            <label for="toppings">Додаткові топпінги:</label>
+            <select id="toppings">
+                <option value="">Виберіть топпінг</option>
+                <option value="pepperoni">Пеппероні</option>
+                <option value="mushrooms">Шампініони</option>
+                <option value="olives">Оліви</option>
+                <option value="extra-cheese">Доповнення сиру</option>
+            </select>
+
+            <button type="submit">Замовити</button>
+        </form>
+    </section>
+
+    <section id="delivery">
+        <h2>Доставка</h2>
+        <p>Ми доставляємо пицці по всьому місту.</p>
+        <p>Стоимость доставки від 50 гривень.</p>
+        <div class="delivery-map">
+            <!-- Вставте карту тут -->
+        </div>
+    </section>
+
+    <section id="contacts">
+        <h2>Контакти</h2>
+        <ul>
+            <li><i class="fas fa-map-marker-alt"></i> Вул. Софійська, 123</li>
+            <li><i class="fas fa-phone"></i> +38 (099) 123-45-67</li>
+            <li><i class="fas fa-envelope"></i> pizzahouse@email.com</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Піца Хаус. Весь права захищено.</p>
+    </footer>
+</body>
+</html>
